@@ -9,7 +9,7 @@ export default function Brands() {
 					You will find these brands and more in ChronoSphere stores
 				</p>
 			</div>
-			<div>
+			<div className="flex justify-center">
 				<img src={brans} />
 			</div>
 		</div>

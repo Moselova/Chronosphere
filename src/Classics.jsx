@@ -2,6 +2,8 @@ import React from "react";
 import first from "./assets/first.png";
 import second from "./assets/second.png";
 import third from "./assets/third.png";
+import arrow from "./assets/arrow.svg";
+
 
 export default function Classics() {
     return (
@@ -22,15 +24,20 @@ export default function Classics() {
 				</p>
 			</div>
 
-			<div className="flex  gap-[32px] mb-[24px] m-[auto] overflow-y-hidden overflow-x-scroll overflow-hidden w-[90%]">
-				<img src={first} />
-				<img src={second} />
-				<img src={third} />
-				<img src={third} />
-				<img src={third} />
+			<div className="flex flex-col mb-[56px]">
+				<div className="flex  gap-[32px] mb-[24px] m-[auto] overflow-y-hidden overflow-x-scroll overflow-hidden w-[90%] ">
+					<img src={first} />
+					<img src={second} />
+					<img src={third} />
+					<img src={third} />
+					<img src={third} />
+				</div>
+				<div className="flex justify-end w-[93%] pt-0">
+					<img src={arrow} />
+				</div>
 			</div>
 
-			<div>
+			<div className="mb-[50px]">
 				<button className="w-[324px] h-[62px] bg-[#FF8B03] text-white">
 					Explore ChronoSphere Classics Now
 				</button>
