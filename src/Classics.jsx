@@ -21,11 +21,15 @@ export default function Classics() {
 					for any watch enthusiast.
 				</p>
 			</div>
-			<div className="flex justify-center gap-[32px] mb-[24px]">
+
+			<div className="flex  gap-[32px] mb-[24px] m-[auto] overflow-y-hidden overflow-x-scroll overflow-hidden w-[90%]">
 				<img src={first} />
 				<img src={second} />
 				<img src={third} />
+				<img src={third} />
+				<img src={third} />
 			</div>
+
 			<div>
 				<button className="w-[324px] h-[62px] bg-[#FF8B03] text-white">
 					Explore ChronoSphere Classics Now
