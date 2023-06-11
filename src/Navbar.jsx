@@ -1,6 +1,7 @@
 import React from 'react';
 import ChronoSphere from "./assets/ChronoSphere.png";
-import watch from "./assets/watch.svg";
+import watch from "./assets/watch.svg"
+
 
 
 export default function Navbar() {

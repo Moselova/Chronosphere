@@ -25,7 +25,7 @@ export default function Classics() {
 			</div>
 
 			<div className="flex flex-col mb-[56px]">
-				<div className="flex  gap-[32px] mb-[24px] m-[auto] overflow-y-hidden overflow-x-scroll overflow-hidden w-[90%] ">
+				<div className="flex gap-[32px] mb-[24px] m-[auto] overflow-y-hidden overflow-x-scroll overflow-hidden w-[90%] ">
 					<img src={first} />
 					<img src={second} />
 					<img src={third} />
@@ -37,8 +37,8 @@ export default function Classics() {
 				</div>
 			</div>
 
-			<div className="mb-[50px]">
-				<button className="w-[324px] h-[62px] bg-[#FF8B03] text-white">
+			<div className="mb-[50px] animate__animated animate__bounce animate__delay-2s">
+				<button className="w-[324px] h-[62px] bg-[#FF8B03] text-white animate__animated animate__bounce">
 					Explore ChronoSphere Classics Now
 				</button>
 			</div>
